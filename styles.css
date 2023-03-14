@@ -361,6 +361,7 @@ button:hover {
   div#connect-section {
     display: block;
     margin: auto;
+    height: 90%;
   }
 
   #connect-text {
