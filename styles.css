@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  transition: all 0.3s ease-out;
 }
 
 :root {
@@ -44,6 +45,17 @@ p {
 ul {
   list-style: none;
 }
+
+.btn {
+  font-size: 11pt;
+  color: black;
+  width: 150px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--purple);
+}
+
 /* ----- NAV SECTION ----- */
 
 #nav-bar {
@@ -152,6 +164,39 @@ div.project-card {
   height: 100%;
 }
 
+.project-link {
+  display: block;
+  position: relative;
+  width: 320px;
+  height: 320px;
+}
+
+.project-text {
+  transition: 0.5s ease;
+  height: 180px;
+  margin-left: 20px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* background-color: white; */
+  /* border: solid 1px white; */
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-card-wrap:hover .project-text {
+  opacity: 1;
+}
+
+.project-card-wrap:hover .project-img {
+  opacity: 0.8;
+}
 /* ----- CONNECT ----- */
 
 div#connect {
