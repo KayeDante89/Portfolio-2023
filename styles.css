@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --purple: #cb6ce5;
   --black: #252525;
+  --grey: #b3b3b3;
 }
 
 html {
@@ -20,31 +26,23 @@ a:hover {
   color: var(--purple);
 }
 
+h1 {
+  color: var(--grey);
+  font-size: 30pt;
+}
+
+h2 {
+  font-size: 25pt;
+  color: var(--grey);
+}
+
+p {
+  color: var(--grey);
+  font-size: 16pt;
+}
+
 ul {
   list-style: none;
-}
-
-/* ----- ANIMATION FOR BIO TEXT ----- */
-
-#container {
-  /* position: absolute; */
-  margin: auto;
-  /* width: 30px; */
-  /* height: 80pt; */
-  top: 0;
-  bottom: 0;
-  filter: url(#threshold) blur(0.6px);
-}
-
-#text1,
-#text2 {
-  position: absolute;
-  width: 100%;
-  display: inline-block;
-  font-family: "Varela Round", sans-serif;
-  font-size: 30pt;
-  text-align: center;
-  user-select: none;
 }
 /* ----- NAV SECTION ----- */
 
@@ -77,6 +75,30 @@ ul {
 
 /* ----- ABOUT ----- */
 
+/* ----- ANIMATION FOR BIO TEXT ----- */
+
+#container {
+  /* position: absolute; */
+  margin: auto;
+  color: var(--grey);
+  /* width: 30px; */
+  /* height: 80pt; */
+  top: 0;
+  bottom: 0;
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  user-select: none;
+}
+
 div#about {
   height: 100vh;
   margin-top: 120px;
@@ -95,8 +117,13 @@ img#profile-pic {
   height: 200px;
 }
 
+#name {
+  color: var(--purple);
+}
+
 div#bio-text {
-  width: 250px;
+  width: 400px;
+  margin-left: 50px;
 }
 
 /* ----- PROJECTS ----- */

@@ -7,7 +7,7 @@ const texts = [
   "junior developer",
   "tech enthusiast",
   "creator",
-  "coffee lover",
+  "coffee addict",
 ];
 
 const morphTime = 2;
