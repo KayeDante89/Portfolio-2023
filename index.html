@@ -17,7 +17,37 @@
       </ul>
     </nav>
     <div id="about">
-      <h1>Hi, I'm Kaye!</h1>
+      <div id="about-section">
+        <div>
+          <img id="profile-pic" src="images/profilepic.jpeg" />
+        </div>
+        <div id="bio-text">
+          <h1>Hi, I'm Kaye!</h1>
+          <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
+          </div>
+
+          <svg id="filters">
+            <defs>
+              <filter id="threshold">
+                <feColorMatrix
+                  in="SourceGraphic"
+                  type="matrix"
+                  values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 255 -140"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <!-- <p>
+            A passionate and dedicated junior developer with a love for all
+            things tech
+          </p> -->
+        </div>
+      </div>
     </div>
     <div id="projects">
       <h1>Projects</h1>
@@ -26,5 +56,6 @@
       <h1>Let's connect</h1>
     </div>
     <footer id="footer">&copy; Kaye Dante - 2023</footer>
+    <script src="script.js"></script>
   </body>
 </html>
