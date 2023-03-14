@@ -339,11 +339,6 @@ button:hover {
     width: 60%;
   }
 
-  #nav-list {
-    display: block;
-    margin: 0;
-  }
-
   div#project-list {
     display: block;
     overflow-y: auto;
