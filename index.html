@@ -8,6 +8,7 @@
     <title>Kaye Dante - Portfolio</title>
   </head>
   <body>
+    <!----- NAV SECTION ----->
     <nav id="nav-bar">
       <img id="logo-img" src="images/logo.png" />
       <ul id="nav-list">
@@ -16,6 +17,7 @@
         <li class="nav-links"><a href="#connect">Connect</a></li>
       </ul>
     </nav>
+    <!----- HOME SECTION ----->
     <div id="home">
       <div id="about-section">
         <div>
@@ -23,7 +25,7 @@
         </div>
         <div id="bio-text">
           <h1>Welcome!</h1>
-          <h2>I'm <span id="name-text">Kaye Dante.</span></h2>
+          <h2>I'm <span class="purple-text">Kaye Dante.</span></h2>
           <p>I am a ..</p>
           <div id="container">
             <span id="text1"></span>
@@ -46,6 +48,7 @@
         </div>
       </div>
     </div>
+    <!----- PROJECT SECTION ----->
     <div id="projects">
       <div id="project-list">
         <div class="project-card-wrap">
@@ -98,47 +101,59 @@
         </div>
       </div>
     </div>
+    <!----- CONNECT SECTION ----->
     <div id="connect">
-      <div>
-        <h1>Let's connect</h1>
-      </div>
-      <div id="contact-form">
-        <form action="https://formspree.io/f/mpznllnz" method="POST">
-          <div class="form-item">
-            <!-- <label for="name">Name:</label> -->
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="name"
-              required
-            />
-          </div>
-          <div class="form-item">
-            <!-- <label for="email">Email:</label> -->
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="email"
-              required
-            />
-          </div>
-          <div class="form-item">
-            <!-- <label for="message">Message:</label> -->
-            <textarea
-              id="message"
-              name="message"
-              placeholder="What would you like to say?"
-              required
-            ></textarea>
-          </div>
-          <div class="form-item">
-            <button type="submit">submit</button>
-          </div>
-        </form>
+      <div id="connect-section">
+        <div id="connect-text">
+          <h1>Let's <span class="purple-text">Connect</span></h1>
+          <p>
+            Connect with me on
+            <a href="https://www.linkedin.com/in/kayemdante1989" target="_blank"
+              >LinkedIn</a
+            >
+            or drop me a message using the form!
+          </p>
+          <p>Looking forward to hear from you.</p>
+        </div>
+        <div id="contact-form">
+          <form action="https://formspree.io/f/mpznllnz" method="POST">
+            <div class="form-item">
+              <!-- <label for="name">Name:</label> -->
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <!-- <label for="email">Email:</label> -->
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <!-- <label for="message">Message:</label> -->
+              <textarea
+                id="message"
+                name="message"
+                placeholder="What would you like to say?"
+                required
+              ></textarea>
+            </div>
+            <div class="form-item">
+              <button type="submit">submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
+    <!----- FOOTER SECTION ----->
     <footer id="footer">&copy; Kaye Dante - 2023</footer>
     <script src="script.js"></script>
   </body>
