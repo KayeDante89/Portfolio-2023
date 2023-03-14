@@ -328,7 +328,7 @@ button:hover {
   } */
 
   div#about-section {
-    margin-top: 190px;
+    padding-top: 120px;
     display: block;
     /* margin: auto; */
   }
@@ -358,6 +358,7 @@ button:hover {
   }
 
   div#connect-section {
+    padding-top: 120px;
     display: block;
     margin: auto;
     height: 90%;
