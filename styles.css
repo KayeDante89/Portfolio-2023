@@ -109,7 +109,6 @@ ul {
 #text1,
 #text2 {
   position: absolute;
-  /* width: 100%; */
   display: inline-block;
   font-family: "Varela Round", sans-serif;
   font-size: 30pt;
