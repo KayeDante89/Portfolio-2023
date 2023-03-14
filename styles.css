@@ -309,6 +309,10 @@ button:hover {
 /* ----- MEDIA QUERIES-------- */
 
 @media screen and (max-width: 1385px) {
+  #profile-pic {
+    margin-left: 30px;
+  }
+
   div#project-list {
     display: grid;
     grid-template-columns: 2fr 2fr;
