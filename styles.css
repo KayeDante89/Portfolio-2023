@@ -1,3 +1,26 @@
 ul {
   list-style: none;
 }
+
+/* NAV SECTION */
+
+#nav-bar {
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+
+#logo-img {
+  height: 100%;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links {
+  margin: 20px;
+}
