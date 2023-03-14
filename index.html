@@ -23,7 +23,7 @@
         </div>
         <div id="bio-text">
           <h1>Welcome!</h1>
-          <h2>I'm <span id="name">Kaye Dante.</span></h2>
+          <h2>I'm <span id="name-text">Kaye Dante.</span></h2>
           <p>I am a ..</p>
           <div id="container">
             <span id="text1"></span>
@@ -99,7 +99,45 @@
       </div>
     </div>
     <div id="connect">
-      <h1>Let's connect</h1>
+      <div>
+        <h1>Let's connect</h1>
+      </div>
+      <div id="contact-form">
+        <form action="https://formspree.io/f/mpznllnz" method="POST">
+          <div class="form-item">
+            <!-- <label for="name">Name:</label> -->
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="name"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <!-- <label for="email">Email:</label> -->
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <!-- <label for="message">Message:</label> -->
+            <textarea
+              id="message"
+              name="message"
+              placeholder="What would you like to say?"
+              required
+            ></textarea>
+          </div>
+          <div class="form-item">
+            <button type="submit">submit</button>
+          </div>
+        </form>
+      </div>
     </div>
     <footer id="footer">&copy; Kaye Dante - 2023</footer>
     <script src="script.js"></script>
