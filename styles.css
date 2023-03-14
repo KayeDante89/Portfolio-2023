@@ -2,25 +2,44 @@ ul {
   list-style: none;
 }
 
-/* NAV SECTION */
+/* ----- NAV SECTION ----- */
 
 #nav-bar {
   background-color: #252525;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 150px;
+  height: 100px;
+}
+
+#nav-list {
+  display: flex;
+  margin: 30px;
+}
+
+.nav-links {
+  margin: 20px;
+  color: white;
 }
 
 #logo-img {
   height: 100%;
 }
 
-#nav-list {
-  display: flex;
-  justify-content: space-around;
+/* ----- ABOUT ----- */
+
+div#about {
+  height: 100vh;
 }
 
-.nav-links {
-  margin: 20px;
+/* ----- PROJECTS ----- */
+
+div#projects {
+  height: 100vh;
+}
+
+/* ----- CONNECT ----- */
+
+div#connect {
+  height: 100vh;
 }
