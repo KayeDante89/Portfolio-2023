@@ -322,9 +322,9 @@ button:hover {
 }
 
 @media screen and (max-width: 700px) {
-  /* #nav-links {
-    display: flex;
-  } */
+  .nav-links {
+    margin: 5px;
+  }
 
   div#about-section {
     padding-top: 120px;
