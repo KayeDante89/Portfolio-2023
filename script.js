@@ -6,8 +6,8 @@ const elts = {
 const texts = [
   "junior developer",
   "tech enthusiast",
-  "creator",
-  "coffee addict",
+  "creative artist",
+  "coffee lover",
 ];
 
 const morphTime = 2;

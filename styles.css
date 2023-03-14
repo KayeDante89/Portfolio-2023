@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease-out;
 }
 
 :root {
@@ -25,6 +24,7 @@ a {
 
 a:hover {
   color: var(--purple);
+  transition: all 0.3s ease-out;
 }
 
 h1 {
@@ -69,6 +69,7 @@ ul {
   overflow: hidden;
   top: 0;
   border-bottom: solid 0.5px white;
+  z-index: 999;
 }
 
 #nav-list {
@@ -108,7 +109,7 @@ ul {
   user-select: none;
 }
 
-div#about {
+div#home {
   height: 100vh;
   margin-top: 120px;
 }
@@ -154,6 +155,10 @@ div#project-list {
   align-content: center;
 }
 
+.project-card-wrap {
+  margin: 10px;
+}
+
 div.project-card {
   width: 320px;
   height: 320px;
@@ -173,7 +178,7 @@ div.project-card {
 
 .project-text {
   transition: 0.5s ease;
-  height: 180px;
+  height: 200px;
   margin-left: 20px;
   width: 220px;
   display: flex;
@@ -195,7 +200,7 @@ div.project-card {
 }
 
 .project-card-wrap:hover .project-img {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 /* ----- CONNECT ----- */
 
